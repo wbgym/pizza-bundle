@@ -1,0 +1,16 @@
+{
+	"name": "webteam/pizza-bundle",
+	"type": "contao-bundle",
+	"require": {
+		"php": "^5.6|^7.0",
+		"contao/core-bundle": "^4.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Webteam\\PizzaBundle\\": "src/"
+		},
+		"classmap": [
+			"src/Resources/contao/"
+		]
+	}
+}
