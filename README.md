@@ -1,5 +1,5 @@
 # Webteam Pizza Bundle
-Adds a pizzaservice management functionality for the Contao backend.
+Provides a pizza service management functionality for the Contao backend.
 
 # Note
 This bundle was developed for a workshop, explaining the extensibility of the Contao framework. 
