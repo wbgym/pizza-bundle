@@ -1,6 +1,7 @@
 {
 	"name": "webteam/pizza-bundle",
 	"type": "contao-bundle",
+	"license": "LPGL-3.0+",
 	"require": {
 		"php": "^5.6|^7.0",
 		"contao/core-bundle": "^4.4"
@@ -12,5 +13,8 @@
 		"classmap": [
 			"src/Resources/contao/"
 		]
+	},
+	"extra": {
+		"contao-manager-plugin":"Webteam\\PizzaBundle\\ContaoManager\\Plugin"
 	}
 }
