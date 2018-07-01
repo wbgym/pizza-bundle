@@ -18,7 +18,8 @@ class Plugin implements BundlePluginInterface
   {
     return [
       BundleConfig::create(WebteamPizzaBundle::class)
-        ->setLoadAfter([ContaoCoreBundle::class]),
+        ->setLoadAfter([ContaoCoreBundle::class])
+        ->setReplace(['pizza']),
     ];
   }
 }
